@@ -20,15 +20,15 @@ public class HourGlass{
         int temp=-999;
          for(int i=0; i < 4; i++){
             for(int j=i;j<4; j++){
-                sum+=arr[i][j]+arr[i][j+1]+arr[i][j+2]+arr[i+1][j+1]+arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2];
+                sum=arr[i][j]+arr[i][j+1]+arr[i][j+2]+arr[i+1][j+1]+arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2];
                
                 
-            }
+            
               if(sum>temp)
               {
                 temp=sum;   
              }
-             
+            } 
         }
         System.out.println(temp);
        
